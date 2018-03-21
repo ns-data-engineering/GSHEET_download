@@ -1,0 +1,3 @@
+Para que essa lib funcione corretamente é necessário instalar as libs de conexão do google.
+
+No windows via pip, utilize: pip install gspread oauth2client
