@@ -1,3 +1,10 @@
 Para que essa lib funcione corretamente é necessário instalar as libs de conexão do google.
 
 No windows via pip, utilize: pip install gspread oauth2client
+
+
+-> O exemplo faz o download da planilha de acronimos do time de marketing. Esse exemplo só funciona para arquivos planilha (excel)
+-> É necessário criar uma chave de acesso de API google para que o script funcione corretamente
+-> O arquivo JSON que está no GIT é a materialização da chave de API google (Também chamado de client secret)
+-> É necessário mapear o cabeçalho do arquivo baixado manualmente
+-> Script foi baseado no exemplo: https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html
